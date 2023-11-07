@@ -1,0 +1,30 @@
+############## Printer.cfg ##############
+
+[screws_tilt_adjust]
+screw1: 31.5, 21.50
+screw1_name: vorne links
+screw2: 201.50, 21.5
+screw2_name: vorne rechts
+screw3: 201.5, 191.50
+screw3_name: hinten rechts
+screw4: 31.5, 191.5
+screw4_name: hinten links
+horizontal_move_z: 10.
+speed: 50.
+screw_thread: CW-M3
+
+
+############## Script starten ##############
+SCREWS_TILT_CALCULATE
+
+
+############## Ausgabe ##############
+17:24:37 
+// vorne links (base) : x=31.5, y=21.5, z=0.19125
+17:24:37 
+// vorne rechts : x=201.5, y=21.5, z=-0.15250 : adjust CW 00:41
+17:24:37 
+// hinten rechts : x=201.5, y=191.5, z=-0.09125 : adjust CW 00:34
+17:24:38 
+// hinten links : x=31.5, y=191.5, z=-0.05125 : adjust CW 00:29
+
